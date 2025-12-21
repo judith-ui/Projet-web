@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Associations - EFREI Informatique</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="../projet web/Image/Logo_Efrei.png"
+        alt="Logo EFREI"
+        class="logo-efrei"
+      />
+      <h1>Associations &amp; Vie Étudiante</h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="formations.html">Nos formations</a>
+        <a href="equipe.html">Équipe enseignante</a>
+        <a href="partenariat.html">Partenariats et Professionnalisation</a>
+        <a href="apropos.html">À propos</a>
+      </nav>
+    </header>
+
+    <main>
+      <h2>Nos Associations</h2>
+      <p>
+        Découvrez les associations étudiantes actives au sein du département
+        Informatique de l’EFREI.
+      </p>
+
+      <section class="associations-grid" aria-label="Liste des associations">
+        <div class="asso-card">
+          <img src="../projet web/Image/wei.png" alt="Logo WEI" />
+          <div class="asso-card-title">WEI</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/bde.jpeg" alt="Logo BDE" />
+          <div class="asso-card-title">BDE</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/bds.png" alt="Logo BDS" />
+          <div class="asso-card-title">BDS</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/Hockefrei.jpeg" alt="Logo Hock’efrei" />
+          <div class="asso-card-title">Hock’efrei</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/Efrei_Para.jpeg" alt="Logo Efrei Para" />
+          <div class="asso-card-title">Efrei Para</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/Efreestyle.jpeg" alt="Logo Efreestyle" />
+          <div class="asso-card-title">Efreestyle</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/Efrei_Chess .png" alt="Logo Efrei Chess" />
+          <div class="asso-card-title">Efrei Chess</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/4eSport .png" alt="Logo 4eSport" />
+          <div class="asso-card-title">4eSport</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/Efrei_Poker .png" alt="Logo Efrei Poker" />
+          <div class="asso-card-title">Efrei Poker</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/Live .jpeg" alt="Logo Live" />
+          <div class="asso-card-title">Live</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/Rename.jpeg" alt="Logo Rename" />
+          <div class="asso-card-title">Rename</div>
+        </div>
+
+        <div class="asso-card">
+          <img src="../projet web/Image/New-Lix .png" alt="Logo New-Lix" />
+          <div class="asso-card-title">New-Lix</div>
+        </div>
+      </section>
+
+      <section aria-label="Chatbot associations">
+        <h2>Chatbot</h2>
+        <div id="chat-box" aria-live="polite" aria-label="Historique du chat"></div>
+        <p>
+          Écrivez le nom de l’association pour avoir plus d’informations :
+        </p>
+        <div class="input-container">
+          <input type="text" id="user-input" placeholder="Tapez votre message..." aria-label="Votre message" />
+          <button type="button" onclick="sendMessage()">Envoyer</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 - Département Informatique EFREI</p>
+      <a href="apropos.html">À propos</a>
+    </footer>
+
+    <script src="../JS/chatbot.js"></script>
+  </body>
+</html>

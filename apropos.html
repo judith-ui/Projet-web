@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>À propos - EFREI Informatique</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        src="../projet web/Image/Logo_Efrei.png"
+        alt="Logo EFREI"
+        class="logo-efrei"
+      />
+      <h1>À propos du projet</h1>
+      <nav>
+        <a href="index.html">Accueil</a>
+        <a href="formations.html">Nos formations</a>
+        <a href="equipe.html">Équipe enseignante</a>
+        <a href="associations.html">Associations</a>
+        <a href="partenariat.html">Partenariats et Professionnalisation</a>
+      </nav>
+    </header>
+
+    <main class="page-apropos">
+      <section class="intro">
+        <p>
+          Ce site a été réalisé dans le cadre d’un projet de programmation web.
+          Il a été conçu pour présenter de manière claire et interactive le
+          département Informatique de l’EFREI. Le travail a été mené de façon
+          collaborative, en combinant design, recherche de contenu,
+          développement et idées créatives.
+        </p>
+      </section>
+
+      <section class="team-section">
+        <h2>Équipe du projet</h2>
+
+        <div class="team-photos">
+          <figure>
+            <img
+              src="../projet web/Image/Ashkan Miri.png"
+              alt="Photo de Ashkan Miri"
+            />
+            <figcaption>Ashkan Miri</figcaption>
+            <p>
+              CSS + responsive + structuration formations. Je m'appelle Ashkan,
+              j’ai 22 ans et je suis en première année de cycle ingénieur à
+              Efrei Paris. Après deux années de licence MIASHS à Paris 1
+              Panthéon-Sorbonne, je me spécialise en informatique et je suis
+              particulièrement passionné par le développement web.
+            </p>
+            <a
+              class="btn-link"
+              href="https://www.linkedin.com/in/ashkan-miri-1a5906242/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="../projet web/Image/Judith Bloch.png"
+              alt="Photo de Judith Bloch"
+            />
+            <figcaption>Judith Bloch</figcaption>
+            <p>
+              JS carrousel + intégration accueil Je m'appelle Judith, j’ai 20
+              ans et je suis en première année de cycle ingénieur à Efrei Paris.
+              Après deux années de licence MIASHS à Paris 1 Panthéon-Sorbonne,
+              je m’intéresse à l’intersection entre technologies numériques,
+              mathématiques et leurs applications concrètes.
+            </p>
+            <a
+              class="btn-link"
+              href="https://www.linkedin.com/in/blochjudith/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </figure>
+
+          <figure>
+            <img
+              src="../projet web/Image/Noa Isabey.png"
+              alt="Photo de Noa Isabey"
+            />
+            <figcaption>Noa Isabey</figcaption>
+            <p>
+              chatbot + intents.json + page associations. Je m'appelle Noa, j’ai
+              21 ans et je suis en première année de cycle ingénieur à Efrei
+              Paris. Avant l’Efrei, j’ai validé un BTS Systèmes numériques et
+              communication ainsi qu’une année de classe préparatoire ATS, et je
+              suis passionné par l’innovation technologique.
+            </p>
+            <a
+              class="btn-link"
+              href="https://www.linkedin.com/in/noa-isabey-1b2a98254/"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+          </figure>
+
+          <section
+            class="section"
+            id="contact-admissions"
+            aria-labelledby="contact-admissions-title"
+          >
+            <div class="entete-section">
+              <h2 id="contact-admissions-title">Contact &amp; Admissions</h2>
+              <p class="note">
+                Coordonnées, procédure d’admission, FAQ et plan d’accès.
+              </p>
+            </div>
+
+            <div class="carte">
+              <section class="formation-content" style="margin-bottom: 18px">
+                <div class="formation-column">
+                  <h3>Coordonnées (Campus Villejuif)</h3>
+                  <ul class="formation-list">
+                    <li><strong>Adresse :</strong> Campus EFREI – Villejuif</li>
+                    <li><strong>Email :</strong> contact@efrei.fr</li>
+                  </ul>
+                </div>
+
+                <div class="formation-column">
+                  <h3>Nous contacter</h3>
+                  <form id="contactForm" class="contact-form">
+                    <div class="form-group">
+                      <label for="nom">Nom complet :</label>
+                      <input
+                        type="text"
+                        id="nom"
+                        name="nom"
+                        required
+                        placeholder="Votre nom..."
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="email">Email :</label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="nom@exemple.com"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label for="sujet">Sujet :</label>
+                      <select id="sujet" name="sujet">
+                        <option value="admission">Admissions</option>
+                        <option value="partenariat">Partenariats</option>
+                        <option value="autre">Autre demande</option>
+                      </select>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message :</label>
+                      <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        required
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn-submit">
+                      Envoyer le message
+                    </button>
+                  </form>
+                  <div id="formFeedback" class="hidden"></div>
+                </div>
+              </section>
+
+              <h3>FAQ</h3>
+              <details>
+                <summary>Quels profils sont attendus en informatique ?</summary>
+                <p>
+                  Curiosité, logique, motivation, régularité. L’expérience
+                  préalable en code est un plus, mais on apprend progressivement
+                  avec des TP et projets.
+                </p>
+              </details>
+
+              <details>
+                <summary>Alternance : à partir de quand ?</summary>
+                <p>
+                  Selon le programme et l’année. Certaines formations proposent
+                  l’alternance sur une partie du cursus.
+                </p>
+              </details>
+
+              <details>
+                <summary>Quels métiers après le diplôme ?</summary>
+                <p>
+                  Développement, cloud/DevOps, cybersécurité, data/IA, systèmes
+                  &amp; réseaux, gestion de projet. Voir la section “Carrières
+                  et débouchés”.
+                </p>
+              </details>
+
+              <details>
+                <summary>Quels sont les coûts / financements ?</summary>
+                <p>
+                  Les coûts dépendent du parcours. Pour l’alternance, le
+                  financement est pris en charge par l’entreprise (selon
+                  règles).
+                </p>
+              </details>
+
+              <h3 style="margin-top: 16px">Plan d’accès (transports)</h3>
+              <p style="margin: 6px 0 0; color: #555">
+                Exemple : <strong>Métro</strong> (ligne 7) /
+                <strong>Grand Paris</strong> (ligne 15 selon ouverture), bus,
+                vélos.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <nav aria-label="Pied de page">
+        <a href="apropos.html">À propos</a>
+      </nav>
+      <p>&copy; 2025 - Département Informatique EFREI</p>
+    </footer>
+  </body>
+</html>

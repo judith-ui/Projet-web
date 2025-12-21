@@ -1,0 +1,101 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": ["Bonjour", "Salut", "Hello", "Coucou", "Bonjour!", "Salut!", "Hi"],
+      "responses": ["Bonjour !", "Salut ! Comment puis-je vous aider ?", "Hello !"]
+    },
+    {
+      "tag": "associations",
+      "patterns": ["association", "asso", "quelles sont les associations", "parle-moi des associations", "assos"],
+      "responses": [
+        "Voici quelques associations : WEI, BDE, BDS, Hock'Efrei, Efrei Para, Efreestyle, Efrei Chess, 4eSport, Efrei Poker, Live, Rename, New-Lix.",
+        "Nous avons plusieurs associations, comme le BDE, le BDS, et bien d'autres !"
+      ]
+    },
+    {
+      "tag": "wei",
+      "patterns": ["WEI", "parle-moi de WEI", "c'est quoi WEI", "WEI?", "WEI c'est quoi"],
+      "responses": [
+        "WEI : Durant tout septembre, l’équipe accueille les nouveaux étudiants et anime le campus pour faciliter leur intégration dans l’école."
+      ]
+    },
+    {
+      "tag": "bde",
+      "patterns": ["BDE", "parle-moi de BDE", "c'est quoi BDE", "BDE?", "BDE c'est quoi"],
+      "responses": [
+        "BDE : Élu chaque année après une campagne intense et festive, le BDE représente les étudiants, fédère 65 associations et anime la vie du campus à Paris comme à Bordeaux."
+      ]
+    },
+    {
+      "tag": "bds",
+      "patterns": ["BDS", "parle-moi de BDS", "c'est quoi BDS", "BDS?", "BDS c'est quoi"],
+      "responses": [
+        "BDS : Il regroupe la plupart des sports de l’Efrei : rugby, football, basketball, tennis, volley, natation, tennis de table..."
+      ]
+    },
+    {
+      "tag": "hockefrei",
+      "patterns": ["Hock'Efrei", "parle-moi de Hock'Efrei", "c'est quoi Hock'Efrei", "Hock'Efrei?", "Hock'Efrei c'est quoi"],
+      "responses": [
+        "Hock'Efrei : Ses membres se rejoignent à la patinoire de Vitry-sur-Seine pour pratiquer le hockey sur glace."
+      ]
+    },
+    {
+      "tag": "efrei_para",
+      "patterns": ["Efrei Para", "parle-moi de Efrei Para", "c'est quoi Efrei Para", "Efrei Para?", "Efrei Para c'est quoi"],
+      "responses": [
+        "Efrei Para : Efrei Para permet d’apprendre à sauter en parachute seul ou en tandem ou bien d’essayer la soufflerie."
+      ]
+    },
+    {
+      "tag": "efreestyle",
+      "patterns": ["Efreestyle", "parle-moi de Efreestyle", "c'est quoi Efreestyle", "Efreestyle?", "Efreestyle c'est quoi"],
+      "responses": [
+        "Efreestyle : BEfreestyle est l’association de danse de l’Efrei : modern-jazz, hip-hop, rock, urban..."
+      ]
+    },
+    {
+      "tag": "efrei_chess",
+      "patterns": ["Efrei Chess", "parle-moi de Efrei Chess", "c'est quoi Efrei Chess", "Efrei Chess?", "Efrei Chess c'est quoi"],
+      "responses": [
+        "Efrei Chess : Efrei Chess accueille tous les étudiants, débutants ou confirmés, pour jouer aux échecs."
+      ]
+    },
+    {
+      "tag": "4esport",
+      "patterns": ["4eSport", "parle-moi de 4eSport", "c'est quoi 4eSport", "4eSport?", "4eSport c'est quoi"],
+      "responses": [
+        "4eSport : L’association de jeux vidéo réunit de nombreux pôles e-sport."
+      ]
+    },
+    {
+      "tag": "efrei_poker",
+      "patterns": ["Efrei Poker", "parle-moi de Efrei Poker", "c'est quoi Efrei Poker", "Efrei Poker?", "Efrei Poker c'est quoi"],
+      "responses": [
+        "Efrei Poker : Elle permet à tous les étudiants, débutants ou confirmés, de se perfectionner au poker."
+      ]
+    },
+    {
+      "tag": "live",
+      "patterns": ["Live", "parle-moi de Live", "c'est quoi Live", "Live?", "Live c'est quoi"],
+      "responses": [
+        "Live : L’association de musique joue tous les styles grâce aux instruments et au local à disposition."
+      ]
+    },
+    {
+      "tag": "rename",
+      "patterns": ["Rename", "parle-moi de Rename", "c'est quoi Rename", "Rename?", "Rename c'est quoi"],
+      "responses": [
+        "Rename : Comment se tenir au courant de la vie étudiante et des bons plans de l'école ? Il suffit de lire Rename, le journal étudiant de l'Efrei."
+      ]
+    },
+    {
+      "tag": "newlix",
+      "patterns": ["New-Lix", "parle-moi de New-Lix", "c'est quoi New-Lix", "New-Lix?", "New-Lix c'est quoi"],
+      "responses": [
+        "New-Lix : Association de DJs de l'école, elle regroupe les passionnés de MAO (musique assistée sur ordinateur). Hifi-Lix anime le week-end d'intégration et d'autres soirées étudiantes."
+      ]
+    }
+  ]
+}
